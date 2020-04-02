@@ -1,72 +1,83 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        self-study
-      </h1>
-      <h2 class="subtitle">
-        My solid Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <div class="main-image">
+      <img src="~/assets/main.jpg" />
+      <div class="hero-content">
+        ガリ勉自習室
       </div>
+    </div>
+    <div class="join">
+      <a href="" class="button is-primary is-fullwidth">
+        ガリ勉自習室に参加する
+      </a>
+      <div class="help-text">ZOOMが自動的に開きます</div>
+    </div>
+    <div class="rules">
+      <ul>
+        <li>入室したらすぐにミュート(消音)にしてください</li>
+        <li>長時間退出する場合は挨拶をしてから退出してください</li>
+        <li>なるべく手元を映してください</li>
+        <li>勉強の教え合い等話し合いがしたい場合は個別ルームを作るので長に声をかけてください</li>
+        <li>顔が移りそうな人は、プライバシーを守るためにマスクをする等対策をしてください</li>
+        <li>休憩時間のチャットは禁止です</li>
+      </ul>
+    </div>
+    <div class="download">
+      <h3>ZOOMのダウンロードはこちら</h3>
+      <a href="" class="button is-primary is-fullwifth">
+        ZOOMをダウンロード
+        </a>
     </div>
   </div>
 </template>
-
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
+export default {}
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+<style scoped>
+.main-image {
+  position: relative;
+}
+.main-image .hero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size :32px;
+  font-weight: bold;
+}
+.join {
+  padding: 20px;
+}
+.join .help-text{
+  text-align: center;
+  color: #aaa;
+  font-size: 12px;
+}
+.join .button {
+  padding: 10px 0;
+}
+.rules {
+  background: #eee;
+  padding: 20px;
+}
+.rules ul li {
+  margin-bottom: 10px;
+}
+.rules ul li:last-child {
+  margin-bottom: 0;
+}
+.download {
+  padding: 20px;
   text-align: center;
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.download h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 </style>
