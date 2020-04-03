@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="join">
-      <a href="" class="button is-primary is-fullwidth">
+      <a href="https://zoom.us/j/520978260?pwd=QlNJWFlYcHU4VHlUNTBkU2ZGclIyQT09" class="button is-primary is-fullwidth">
         ガリ勉自習室に参加する
       </a>
       <div class="help-text">ZOOMが自動的に開きます</div>
@@ -27,8 +27,14 @@
       </ul>
     </div>
     <div class="download">
-      <h3>ZOOMのダウンロードはこちら</h3>
+      <h3>ZOOMのダウンロードはこちら(iphone)</h3>
       <a href="https://apps.apple.com/jp/app/zoom-cloud-meetings/id546505307" class="button is-primary is-fullwifth">
+        ZOOMをダウンロード
+        </a>
+    </div>
+    <div class="download-android">
+      <h3>ZOOMのダウンロードはこちら(android)</h3>
+      <a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings&hl=ja" class="button is-primary is-fullwifth">
         ZOOMをダウンロード
         </a>
     </div>
@@ -81,6 +87,15 @@ export default {}
   text-align: center;
 }
 .download h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.download-android {
+  padding: 20px;
+  text-align: center;
+}
+.download-android h3 {
   margin-bottom: 10px;
   font-weight: bold;
 }
