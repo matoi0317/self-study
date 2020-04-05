@@ -14,9 +14,6 @@
     </div>
     <div class="rules">
       <ul>
-        <li></li>
-        <div class="d"><li><font color="blue">・本日臨時開放しています</font></li></div>
-        <li></li>
         <div class="a"><li><font color="red">・自習室のURLは09:50に配布します</font></li></div>
         <div class="b"><li><font color="red">・自習室は火・木・金に開放しています</font></li></div>
         <div class="c"><li><font color="red">・解放時間は10:00 ~ 17:00です</font></li></div>
@@ -116,7 +113,4 @@ export default {}
   font-weight: bold;
 }
 
-.d {
-  font-weight: bold;
-}
 </style>
