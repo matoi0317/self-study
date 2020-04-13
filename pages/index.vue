@@ -15,8 +15,9 @@
     <div class="rules">
       <ul>
         <div class="a"><li><font color="red">・自習室のURLは09:50に配布します</font></li></div>
-        <div class="b"><li><font color="red">・自習室は火・木・金に開放しています</font></li></div>
+        <div class="b"><li>・自習室は<font color="red">月〜金に開放しています</font></li></div>
         <div class="c"><li><font color="red">・解放時間は10:00 ~ 17:00です</font></li></div>
+        <div class="d"><li><font color="red">・自習室の様子をYouTubeにてLive配信しています</font></li></div>
         <li>・入室したらすぐに<font color="red">ミュート(消音)</font>にしてください</li>
         <li>・長時間退出する場合は<font color="red">挨拶をしてから</font>退出してください</li>
         <li>・なるべく手元を映してください</li>
@@ -110,6 +111,9 @@ export default {}
 }
 
 .c {
+  font-weight: bold;
+}
+.d {
   font-weight: bold;
 }
 
