@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="join">
-      <a href="https://zoom.us/j/99235007536?pwd=Q1NmaWc5c2ZNMnpsUVN6NGJTRmVBQT09" class="button is-primary is-fullwidth">
+      <a href="" class="button is-primary is-fullwidth">
         ガリ勉自習室に参加する
       </a>
       <div class="help-text">ZOOMが自動的に開きます</div>
