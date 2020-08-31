@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="join">
-      <a href="" class="button is-primary is-fullwidth">
+      <a href="https://us02web.zoom.us/j/82233763807?pwd=ZjY0RlIyZ1BPWk0zV0VzZlBpUXhqZz09" class="button is-primary is-fullwidth">
         ガリ勉自習室に参加する
       </a>
       <div class="help-text">ZOOMが自動的に開きます</div>
@@ -17,7 +17,7 @@
         <div class="a"><li><font color="red">・自習室のURLは09:50に配布します</font></li></div>
         <div class="b"><li>・自習室は<font color="red">月〜金に開放しています</font></li></div>
         <div class="c"><li><font color="red">・解放時間は10:00 ~ 17:00です</font></li></div>
-        <li>・入室したらすぐに<font color="red">ミュート(消音)</font>にしてください</li>
+        <li>・入室したら<font color="red">ミュート(消音)</font>に設定されています</li>
         <li>・なるべく手元を映してください</li>
         <li>・勉強の教え合い等話し合いがしたい場合は個別ルームを作るのでルーム長に声をかけてください</li>
         <li>・顔が移りそうな人は、プライバシーを守るために<font color="red">マスクをする</font>等対策をしてください</li>
